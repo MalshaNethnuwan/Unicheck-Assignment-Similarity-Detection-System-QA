@@ -1,0 +1,16 @@
+# UniCheck QA assignment pack
+
+This folder contains the test plan and analysis for the EC4206 Software Testing and Quality Assurance assignment. The separate submission report is UniCheck_QA_Assignment_Report.docx in the workspace, outside this source tree.
+
+## What is included
+
+- test-plan.md — scope, objectives, quality model, lifecycle and environment.
+- test-cases.md — executable and manual cases with expected/actual/status fields.
+- black-box-analysis.md — equivalence classes, boundary values and publish decision table.
+- white-box-analysis.md — cyclomatic complexity and statement/branch test mapping.
+- manual-review.md — security and usability checks to complete against a running deployment.
+- performance/README.md and performance/unicheck-health.jmx — a low-volume JMeter plan for the local health endpoint.
+- defect-log.csv — one fixed validation defect with its test evidence and open review observations.
+- metrics-and-evidence.md — commands, interpretation and screenshot checklist.
+
+The automated test suite and Cucumber scenarios are under backend/tests and backend/features. CI configuration is in .github/workflows/quality.yml. Do not replace Not run fields with estimates; capture real output from your own environment and add it to the report.
